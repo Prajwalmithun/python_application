@@ -3,9 +3,9 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: scripts/stop_container.sh
+    - location: ec2_deployment/stop_container.sh
       timeout: 80
       runas: root
   AfterInstall:
-    - location: scripts/start_container.sh
+    - location: ec2_deployment/start_container.sh
       runas: root
