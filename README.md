@@ -48,10 +48,12 @@ Either Click on Code -> Open with Github Desktop (OR) run the following command 
 # cd python_application
 ```
 
+Uncomment the line 18, 19 in main.py file and comment the line 21
+
 ### Step 2: Build the Docker Image
 
 ```
-# docker build -t python_application .
+# docker build -t <DOCKERHUB_USERNAME>/python_application .
 ```
 
 ### Step 3: Run the Docker Container
@@ -63,3 +65,12 @@ Either Click on Code -> Open with Github Desktop (OR) run the following command 
 ### Step 4: Access the application
 
 Open your browser and go to http://localhost:5001
+
+
+### Push the Docker Image to Docker Hub
+
+```
+# docker login
+# docker push <DOCKERHUB_USERNAME>/python_application
+```
+Check your dockerhub repository for the image
