@@ -3,4 +3,7 @@
 set -e
 
 # Stop the container
-docker stop python_app_container_01
+docker stop `docker ps -q`
+
+# Remove old containers
+docker rm `docker ps -a -q`
