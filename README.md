@@ -74,3 +74,35 @@ Open your browser and go to http://localhost:5001
 # docker push <DOCKERHUB_USERNAME>/python_application
 ```
 Check your dockerhub repository for the image
+
+# CI/CD Pipeline 
+
+### Github - CodeBuild - CodeDeploy - EC2
+
+![Archicture diagram](readme_images/aws_ci_cd-CI_CD_EC2.drawio.png)
+
+* buildspec.yml 
+* appspec.yml 
+* ec2_deployment scripts 
+
+### Github - CodeBuild - ElasticBeanstalk
+
+![Architecture Diagram here]()
+
+* buildspec.yml
+* eb_deployment scripts
+
+### Github - CodeBuild - CodeDeploy - ECS
+
+![Architecture Diagram here]()
+
+* buildspec.yml
+* appspec.yml
+* ecs_deployment scripts
+
+### Github - CodeBuild - ECS 
+
+![Architecture Diagram here]()
+
+* buildspec.yml
+* ecs_deployment scripts
