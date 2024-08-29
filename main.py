@@ -18,4 +18,4 @@ if __name__ == '__main__':
     # port = int(os.environ.get("PORT","5001"))
     # app.run(host='0.0.0.0',port=port,debug=True)
     
-    app.run(port=5003, debug=True)     # uncomment this line to run the app locally and comment the line to run the app on Docker
+    app.run(port=5001, debug=True)     # uncomment this line to run the app locally and comment the line to run the app on Docker
