@@ -3,10 +3,9 @@ os: linux
 
 hooks:
   # ApplicationStop:
-  #   - location: scripts/application_stop.sh
+  #   - location: scripts/stop_container.sh
   #     timeout: 60
   #     runas: root
   AfterInstall:
-    - location: scripts/after_install.sh
-      timeout: 60
+    - location: scripts/start_container.sh
       runas: root
