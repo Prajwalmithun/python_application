@@ -59,7 +59,7 @@ Uncomment the line 18, 19 in main.py file and comment the line 21
 ### Step 3: Run the Docker Container
 
 ```
-# docker run -p 5000:5000 python_application
+# docker run -p 5001:5001 python_application
 ```
 
 ### Step 4: Access the application
