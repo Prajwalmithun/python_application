@@ -19,7 +19,7 @@ phases:
       - echo "Building the application"
       - docker build -t $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/python_application:v1 .
       - echo "$DOCKER_REGISTRY_PASSWORD" | docker login --username $DOCKER_REGISTRY_USERNAME --password-stdin $DOCKER_REGISTRY_URL
-      - docker push $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/fnote-aws-devops:v1
+      - docker push $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/python_application:v1
   post_build:
     commands:
       - echo "Build completed on `date`"
