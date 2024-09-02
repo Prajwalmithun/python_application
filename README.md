@@ -75,7 +75,7 @@ Open your browser and go to http://localhost:5001
 ```
 Check your dockerhub repository for the image
 
-# CI/CD Pipeline 
+<!-- # CI/CD Pipeline 
 
 ### Github - CodeBuild - CodeDeploy - EC2
 
@@ -105,4 +105,4 @@ Check your dockerhub repository for the image
 ![Architecture Diagram here]()
 
 * buildspec.yml
-* ecs_deployment scripts
+* ecs_deployment scripts -->
